@@ -5,4 +5,7 @@ const openButton = document.querySelector('.fa-bars');
 const closeButton = document.querySelector('.close');
 
 // definire le variabili delle classi che si modificheranno dopo i click 
+let hamburgerEffect = document.querySelector('.hamburger-menu');
+
+let clickCounter = 0;
 
