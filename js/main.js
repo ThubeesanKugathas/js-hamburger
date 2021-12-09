@@ -11,19 +11,9 @@ let hamburgerEffect = document.querySelector('.hamburger-menu');
 let clickCounter = 0;
 
 openButton.addEventListener('click', function () {
-    clickCounter++; 
-
-    // se clickCounter è diverso da 0 allora aggiunge active
-    if (clickCounter !== 0) {
-        hamburgerEffect.classList.add('active');
-    } 
+    hamburgerEffect.classList.add('active');
 })
 
 closeButton.addEventListener('click', function () {
-    clickCounter++; 
-
-    // se clickCounter è diverso da 0, allora toglie active
-    if (clickCounter !== 0) {
-        hamburgerEffect.classList.remove('active');
-    } 
+    hamburgerEffect.classList.remove('active');
 })
