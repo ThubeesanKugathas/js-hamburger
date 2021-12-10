@@ -7,9 +7,7 @@ const closeButton = document.querySelector('.close');
 // definire le variabili delle classi che si modificheranno dopo i click 
 let hamburgerEffect = document.querySelector('.hamburger-menu');
 
-// clickCounter a 0 per indicare l'effetto spento
-let clickCounter = 0;
-
+// clicker dei buttons 
 openButton.addEventListener('click', function () {
     hamburgerEffect.classList.add('active');
 })
